@@ -655,12 +655,11 @@ footer {
 }
 
 .project-info {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
-    min-height: 100px;
 
     h3 {
         font-size: 1.5em;
