@@ -512,6 +512,8 @@ footer {
     padding: 15px;
     border-radius: 3px;
     text-align: left;
+    height: auto;
+    max-height: none;
 
     h3 {
         font-size: 1.5em;
@@ -643,10 +645,6 @@ footer {
 
 .project {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
@@ -656,14 +654,14 @@ footer {
 
 .project-image {
     float: left;
-    flex-shrink: 0;
 }
 
 .project-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
     padding: 15px;
-    flex-grow: 1;  /* Allow the text box to grow and fill remaining space */
-    position: relative;  /* Changed from absolute to relative */
-    margin-left: 300px; 
 
     h3 {
         font-size: 1.5em;
