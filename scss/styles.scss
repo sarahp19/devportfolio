@@ -512,8 +512,6 @@ footer {
     padding: 15px;
     border-radius: 3px;
     text-align: left;
-    height: auto;
-    max-height: none;
 
     h3 {
         font-size: 1.5em;
@@ -650,6 +648,7 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    height: auto !important;
 }
 
 .project-image {
