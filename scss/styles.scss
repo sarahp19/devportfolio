@@ -644,8 +644,9 @@ footer {
 .project {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
